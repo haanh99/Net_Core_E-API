@@ -1,8 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Core.Entities;
-using Infrastructure.Config;
-namespace Intrastructure.Data;
+namespace Infrastructure.Data;
 
 public class StoreContext(DbContextOptions options) : DbContext(options)
 {
